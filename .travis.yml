@@ -1,4 +1,6 @@
-install: make get-deps
+language: c
+compiler: gcc
+install: make
 script:
   - make
   - make test
